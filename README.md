@@ -159,3 +159,42 @@ outputs/
 ```
 
 每种方法的输出目录互相独立，可以直接用于后续定量或主观对比实验。
+
+## Citation
+
+如果需要在其他研究中使用本仓库，请考虑引用本研究使用的三个低照度图像增强方法的原始论文：
+
+### Zero-DCE
+
+```bibtex
+@inproceedings{Zero-DCE,
+  author = {Guo, Chunle Guo and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Hou, Junhui and Kwong, Sam and Cong, Runmin},
+  title = {Zero-reference deep curve estimation for low-light image enhancement},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages = {1780--1789},
+  month = {June},
+  year = {2020}
+}
+```
+
+### SCI
+
+```bibtex
+@inproceedings{ma2022toward,
+  title = {Toward Fast, Flexible, and Robust Low-Light Image Enhancement},
+  author = {Ma, Long and Ma, Tengyu and Liu, Risheng and Fan, Xin and Luo, Zhongxuan},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages = {5637--5646},
+  year = {2022}
+}
+```
+
+### Retinexformer
+```bibtex
+@inproceedings{retinexformer,
+  title = {Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement},
+  author = {Cai, Yuanhao and Bian, Hao and Lin, Jing and Wang, Haoqian and Timofte, Radu and Zhang, Yulun},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year = {2023}
+}
+```
