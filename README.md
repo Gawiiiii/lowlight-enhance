@@ -52,7 +52,7 @@ cd ../..
 
 ### 1. 获取原始测试集
 
-原始测试图像不进入 Git 历史。复现实验时，请直接向论文作者索取数据包 `nightdataset_raw_44.zip`。拿到压缩包后，将其中全部 `44` 张原图解压到：
+原始测试图像不进入 Git 历史。复现实验时，请从https://pan.baidu.com/s/1dbESUHpGBVLUbcDIHGGyEg?pwd=phjr （提取码: phjr）下载 `nightdataset`数据集，将其中全部 `44` 张原图存储到：
 
 ```text
 datasets/nightdataset/
